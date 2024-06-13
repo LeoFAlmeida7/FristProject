@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 40px 0;
+    background: rgb(75,58,101);
+    background: linear-gradient(90deg, rgba(75,58,101,0.9192051820728291) 5%, rgba(25,0,56,0.9136029411764706) 37%, rgba(63,33,122,1) 71%);
+    color: rgb(255, 255, 255);
+}
+
+header h1{
+    font-size: 50px;
+}
+
+header nav li {
+    font-size: 24px;
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav li a:hover{
+    color: rgb(216, 173, 255);
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container, input, textarea{
+    align-items: flex-start;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: #b6ffffde;
+}
+
+.ListaMarcas img{
+    height: 35px;
+}
+
+.ListaMarcas li{
+    display: inline;
+}
+
+section{
+    margin: 60px 0;
+}
+
+.FrenteLoja{
+    margin-right: 40px;
+}
+
+header h1,
+section h2
+section h3{
+    font-weight: normal;
+}
+
+section h3{
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+
+section h2{
+    margin: 0 0 20px 20px;
+    font-size: 50px;
+    color: gold;
+
+}
+
+section p{
+    margin: 0 0 20px 20px;
+    font-size: 20px;
+}
+
+section div li {
+    margin: 0 0 20px 50px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.sociaLink img{
+    height: 24PX;
+}
+
+.sociaLink li{
+    display: inline;
+    margin-right: 9px;
+}
+
+.sociaLink a{
+    text-decoration: none;
+}
+
+section .ti{
+    margin: 0;
+}
+
+.contact-metodos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+form input,
+form button,
+form textarea{
+    display: block;
+    width: 320px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: rgb(216, 173, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(126, 98, 151);
+}
+
+input:focus, textarea:focus{
+    outline-color:  rgb(179, 93, 255);
+}
+
+.center, footer {
+    text-align: center;
+    padding: 16px 0;
+}
